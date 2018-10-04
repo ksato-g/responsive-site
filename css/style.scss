@@ -51,9 +51,12 @@ a {
   text-transform: uppercase;
 }
 
-.flexible-images{
-	max-width:100%;
-	height:auto;
+.box {
+  background-image: url("../pic.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 /* Contents
@@ -189,4 +192,12 @@ section {
       }
     }
   }  
+  .box {
+  background-image: url("../pic.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
 }

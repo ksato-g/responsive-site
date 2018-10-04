@@ -43,9 +43,12 @@ a {
 .uppercase, section h2, #skills h3 {
   text-transform: uppercase; }
 
-.flexible-images {
-  max-width: 100%;
-  height: auto; }
+.box {
+  background-image: url("../pic.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
 
 /* Contents
 ------------------------------------------------------------*/
@@ -151,6 +154,13 @@ section {
     margin: 0 10px; }
 
   #contact ul a:hover {
-    background-color: #0f949b; } }
+    background-color: #0f949b; }
+
+  .box {
+    background-image: url("../pic.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center; } }
 
 /*# sourceMappingURL=style.css.map */
