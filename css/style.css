@@ -132,6 +132,7 @@ section {
     border-radius: 50%; }
 
 .button1 {
+  text-align: center;
   font-size: 1.4em;
   font-weight: bold;
   padding: 10px 30px;
